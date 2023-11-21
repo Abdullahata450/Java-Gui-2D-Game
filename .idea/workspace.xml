@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8802ef41-203f-410e-9882-ed8d9b8c7f97" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Entity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/PLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/PLayer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +27,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/Gamepanel.java" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
@@ -76,7 +80,7 @@
       <updated>1700498557193</updated>
       <workItem from="1700498558717" duration="4489000" />
       <workItem from="1700503470602" duration="234000" />
-      <workItem from="1700563978981" duration="13741000" />
+      <workItem from="1700563978981" duration="14742000" />
     </task>
     <servers />
   </component>
