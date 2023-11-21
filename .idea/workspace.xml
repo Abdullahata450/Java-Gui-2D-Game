@@ -5,30 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8802ef41-203f-410e-9882-ed8d9b8c7f97" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/PLayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/Gamepanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/Keyhandlers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Players/back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Players/boy_down_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Players/boy_down_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Players/boy_left_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Players/boy_left_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Players/boy_right_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Players/boy_right_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Players/boy_up_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Players/boy_up_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Players/default face.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Players/move left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Players/move right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Players/moveDonwn2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Players/moveDown1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Players/moveRight1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Players/moveRight2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Players/moveleft1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Players/moveleft2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Players/moveup1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Players/moveup2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/PLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/PLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Players/back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Players/default face.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Players/move left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Players/move right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Players/walk_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Players/walk_2.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +90,7 @@
       <updated>1700498557193</updated>
       <workItem from="1700498558717" duration="4489000" />
       <workItem from="1700503470602" duration="234000" />
-      <workItem from="1700563978981" duration="10387000" />
+      <workItem from="1700563978981" duration="13541000" />
     </task>
     <servers />
   </component>
