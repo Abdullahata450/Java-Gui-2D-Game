@@ -31,8 +31,8 @@ public class PLayer extends  Entity {
 
     public void getPlayerImage(){
         try{
-            up1= ImageIO.read(getClass().getResourceAsStream("/Players/moveup1"));
-            up2= ImageIO.read(getClass().getResourceAsStream("/Players/moveup2"));
+            up1= ImageIO.read(getClass().getResourceAsStream("/Players/moveup1.png"));
+            up2= ImageIO.read(getClass().getResourceAsStream("/Players/moveup2.png"));
             down1= ImageIO.read(getClass().getResourceAsStream("/Players/moveDown1.png"));
             down2= ImageIO.read(getClass().getResourceAsStream("/Players/moveDonwn2.png"));
             right1= ImageIO.read(getClass().getResourceAsStream("/Players/moveRight1.png"));
