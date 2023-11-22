@@ -1,6 +1,7 @@
 package Main;
 
-import Entity.PLayer;
+import Entity.PLayer;       // import form packesges Entity
+import Tiles.TileManager; // import form packeges Tils
 
 import java.awt.Color;
 import java.awt.Dimension;
@@ -10,22 +11,20 @@ import javax.swing.JPanel;
 
 public class Gamepanel extends JPanel implements Runnable {
 
-  public   int tileSize = 18 * 3;
-    int ScreenCol = 17;
-    int ScreenRow = 14;
-    int ScreenWidth = tileSize * ScreenCol;
-    int ScreenHeight = tileSize * ScreenRow;
+  public   int tileSize = 16 * 3;
+   public int ScreenCol = 16;
+    public int ScreenRow = 12;
+    public int ScreenWidth = tileSize * ScreenCol;
+    public int ScreenHeight = tileSize * ScreenRow;
     Thread gameThread;
     Keyhandlers KEYH = new Keyhandlers();
 
     PLayer pLayer =new PLayer(this,KEYH);  // player class
 
+    TileManager tileM=new TileManager(this); // tile Manager class;
 
 
-    int playerX = 100; // Default positions
-    int playerY = 100;
-    int Playerspeed = 4;
-    int FPS = 60;
+
 
     public Gamepanel() {
         this.setPreferredSize(new Dimension(ScreenWidth, ScreenHeight));
@@ -40,12 +39,13 @@ public class Gamepanel extends JPanel implements Runnable {
     }
 
     public void run() {
+
         while (true) {
             update();
             repaint();
 
             try {
-                Thread.sleep(18);
+                Thread.sleep(19);
             }
             catch (InterruptedException e) {
                 e.printStackTrace();
@@ -62,6 +62,7 @@ public class Gamepanel extends JPanel implements Runnable {
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
         Graphics2D g2 = (Graphics2D) g;
+        tileM.draw(g2); // draw form Tilemanager class
         pLayer.draw(g2);   // draw from player class
         g2.dispose();
     }

@@ -1,7 +1,6 @@
 package Entity;
 import  Main.Gamepanel;
 
-import Main.Gamepanel;
 import Main.Keyhandlers;
 
 import javax.imageio.ImageIO;
@@ -22,9 +21,9 @@ public class PLayer extends  Entity {
     }
 
     public void SetdefaultValues(){
-        x=100;
-        y=100;
-        speed=4;
+        x=250;
+        y=250;
+        speed=3;
         direction ="down";
 
     }
@@ -66,7 +65,7 @@ public class PLayer extends  Entity {
         }
 
         spriteCounter++;
-        if(spriteCounter>10){
+        if(spriteCounter>13){
             if (spriteNum==1){
                 spriteNum=2;
             }

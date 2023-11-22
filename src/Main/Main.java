@@ -16,7 +16,6 @@ public class Main {
         windows.pack();
         windows.setLocationRelativeTo(null);
         windows.setVisible(true);
-
         game.startGame();
     }
 }
