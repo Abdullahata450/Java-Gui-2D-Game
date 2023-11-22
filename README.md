@@ -1,7 +1,7 @@
 # Game Project README
 
 ## Project Overview
-This repository contains the codebase for a GUI-based game that I am currently working on. The game is being developed using [insert framework/library here], and this README provides an overview of the project structure and key details.
+This repository contains the codebase for a GUI-based game that I am currently working on. The game is being developed using java , and this README provides an overview of the project structure and key details.
 
 ## Current Status
 As of now, the project is in active development. I have implemented several features and functionalities, including:
