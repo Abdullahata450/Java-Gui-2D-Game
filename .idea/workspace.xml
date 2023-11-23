@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8802ef41-203f-410e-9882-ed8d9b8c7f97" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TilesPhoto/newWall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TilesPhoto/newWater.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TilesPhoto/newgrass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Maps/world01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TilesPhoto/earth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TilesPhoto/sand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TilesPhoto/tree.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/PLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/PLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Gamepanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Gamepanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tiles/TileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tiles/TileManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,8 +73,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Java Project Wok\Project\src\TilesPhoto" />
       <recent name="D:\Java Project Wok\Project\src\Maps" />
+      <recent name="D:\Java Project Wok\Project\src\TilesPhoto" />
       <recent name="D:\Java Project Wok\Project\src\Players" />
     </key>
   </component>
@@ -86,7 +90,10 @@
       <workItem from="1700503470602" duration="234000" />
       <workItem from="1700563978981" duration="17811000" />
       <workItem from="1700591236791" duration="1223000" />
-      <workItem from="1700649861769" duration="11149000" />
+      <workItem from="1700649861769" duration="13737000" />
+      <workItem from="1700749143109" duration="1937000" />
+      <workItem from="1700756684499" duration="6000" />
+      <workItem from="1700760474602" duration="6856000" />
     </task>
     <servers />
   </component>

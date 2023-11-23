@@ -7,6 +7,7 @@ import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
+import java.security.PublicKey;
 import javax.swing.JPanel;
 
 public class Gamepanel extends JPanel implements Runnable {
@@ -16,12 +17,27 @@ public class Gamepanel extends JPanel implements Runnable {
     public int ScreenRow = 12;
     public int ScreenWidth = tileSize * ScreenCol;
     public int ScreenHeight = tileSize * ScreenRow;
+
+
+    // World map setting 50 by 50 world01 MAP
+    public int WorldCol=50;
+    public int WorldRow=50;
+    public int WorldHeight=tileSize * WorldCol;
+    public int WorldWidth=tileSize * WorldRow;
+
+
+
     Thread gameThread;
-    Keyhandlers KEYH = new Keyhandlers();
+   public Keyhandlers KEYH = new Keyhandlers();
 
-    PLayer pLayer =new PLayer(this,KEYH);  // player class
+   public PLayer pLayer =new PLayer(this,KEYH);  // player class
 
-    TileManager tileM=new TileManager(this); // tile Manager class;
+   public TileManager tileM=new TileManager(this); // tile Manager class;
+
+
+
+
+
 
 
 
@@ -62,8 +78,11 @@ public class Gamepanel extends JPanel implements Runnable {
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
         Graphics2D g2 = (Graphics2D) g;
+
         tileM.draw(g2); // draw form Tilemanager class
         pLayer.draw(g2);   // draw from player class
+
+
         g2.dispose();
     }
 }

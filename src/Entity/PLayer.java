@@ -11,18 +11,24 @@ import java.io.IOException;
 public class PLayer extends  Entity {
     Gamepanel gp;
     Keyhandlers KeyH;
+    public int ScreenX;
+    public int ScreenY;
 
     public  PLayer(Gamepanel gp,Keyhandlers KeyH){
        this.gp=gp;
        this.KeyH=KeyH;
+
+       ScreenX=gp.ScreenWidth/2-(gp.tileSize);
+       ScreenY=gp.ScreenHeight/2-(gp.tileSize);
+
 
         SetdefaultValues();
         getPlayerImage();
     }
 
     public void SetdefaultValues(){
-        x=250;
-        y=250;
+        WorldX=1100;
+        WorldY=1100;
         speed=3;
         direction ="down";
 
@@ -49,19 +55,19 @@ public class PLayer extends  Entity {
 
         if (KeyH.upPressed) {
             direction="up";
-            y -= speed;
+            WorldY -= speed;
         }
         else if (KeyH.downPressed) {
             direction="down";
-            y += speed;
+            WorldY += speed;
         }
         else if (KeyH.leftPressed) {
             direction="left";
-            x -= speed;
+            WorldX -= speed;
         }
         else if (KeyH.rightPressed) {
             direction="right";
-            x += speed;
+            WorldX += speed;
         }
 
         spriteCounter++;
@@ -120,7 +126,7 @@ public class PLayer extends  Entity {
                 break;
 
         }
-        g2.drawImage(image,x,y,gp.tileSize,gp.tileSize,null);
+        g2.drawImage(image,ScreenX,ScreenY,gp.tileSize,gp.tileSize,null);
     }
 
 
